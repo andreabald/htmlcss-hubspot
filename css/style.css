@@ -256,7 +256,7 @@ li .fas{
   margin-top: 30px;
 }
 
-.col1, .col2, .col3{
+.uno, .due, .tre{
   width: 30%;
   background-color: white;
   padding: 30px;
@@ -266,110 +266,88 @@ li .fas{
 }
 
 /* prima colonna */
-.col1{
+.uno, .due{
   margin-right: 5%;
 }
 
-.col1 ul li{
+.col ul li{
   text-align: left;
   list-style: none;
   padding: 0 0 10px 0;
   font-size: 17px;
 }
 
-.col1  ul li .fas{
+.col  ul li .fas{
   padding: 0px 10px 0 0;
   color: #ff704d;
 }
 
-.col1 h1{
+.col h1{
   margin:20px 0;
 }
 
-.col1 p{
+.col p{
   margin-bottom: 10px;
 }
 
-.col1 hr{
+.col hr{
   margin: 30px 0;
 }
 
-.col1 h3{
-  margin: 15px 0px;
-  font-size: 15px;
-}
-
-/* seconda colonna */
-.col2{
-  margin-right: 5%;
-}
-
-.col2 ul li{
-  text-align: left;
-  list-style: none;
-  padding: 0 0 10px 0;
-  font-size: 17px;
-}
-
-.col2  ul li .fas{
-  padding: 0px 10px 0 0;
-  color: #ff704d;
-}
-
-.col2 h1{
-  margin:20px 0;
-}
-
-.col2 p{
-  margin-bottom: 10px;
-}
-
-.col2 hr{
-  margin: 30px 0;
-}
-
-.col2 h3{
-  margin: 15px 0px;
-  font-size: 15px;
-}
-
-/* terza colonna */
-.col3 ul li{
-  text-align: left;
-  list-style: none;
-  padding: 0 0 10px 0;
-  font-size: 17px;
-}
-
-.col3  ul li .fas{
-  padding: 0px 10px 0 0;
-  color: #ff704d;
-}
-
-.col3 h1{
-  margin:20px 0;
-}
-
-.col3 p{
-  margin-bottom: 10px;
-}
-
-.col3 hr{
-  margin: 30px 0;
-}
-
-.col3 h3{
+.col h3{
   margin: 15px 0px;
   font-size: 15px;
 }
 
 /* parte3 */
+.parte3{
+  width: 100%;
+  height: 800px;
+  background-color: #29a3a3;
+  padding: 130px;
+  color: white;
+}
 
+.head{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
 
+.head h1{
+  font-size: 33px;
+  margin-bottom: 20px;
+}
 
+.head p{
+  font-size: 18px;
+  margin-bottom: 70px;
+}
 
+.lista ul li{
+  width: 24%;
+  border-right: 1px solid white;
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  margin:auto;
+  padding:30px;
+}
 
+.sopra ul{
+  border-bottom: 1px solid white;
+}
 
+.lista ul li:last-child{
+  border-right: 0;
+}
+
+.riquadri h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
 
 
 
